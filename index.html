@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Parameter Replacement</title>
+  </head>
+  <body>
+    <h1>Text Search and Replace</h1>
+
+    <label for="originalText">Original Text:</label><br />
+    <textarea id="originalText" rows="5" cols="50"></textarea><br />
+
+    <label for="specificChar">Specific Character:</label>
+    <input type="text" id="specificChar" /><br />
+
+    <label for="replaceText">Parameter to replace all:</label>
+    <input type="text" id="replaceText" /><br />
+
+    <button onclick="searchAndReplace()">Search and Replace</button><br />
+
+    <label for="modifiedText">Modified Text:</label><br />
+    <textarea id="modifiedText" rows="5" cols="50" readonly></textarea><br />
+
+    <button onclick="getSpecificChar()">Get Specific Character</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
