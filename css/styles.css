@@ -1,0 +1,24 @@
+.container-fluid {
+  width: 100%
+}
+
+.title {
+  text-align: center;
+}
+
+.control-column {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.m-t {
+  margin-top: 10%;
+}
+
+.w-f{
+  width: 100%;
+}
